@@ -17,12 +17,6 @@ ComposeNote is a straightforward note-taking app built using Jetpack Compose, Ro
 - [Contributing](#contributing)
 - [License](#license)
 
-## Screenshots
-
-![Home Screen](screenshots/home_screen.png)
-![Add Note Screen](screenshots/add_note_screen.png)
-![Note Detail Screen](screenshots/note_detail_screen.png)
-
 ## Technologies Used
 
 - [Jetpack Compose](https://developer.android.com/jetpack/compose): Modern Android UI toolkit.
