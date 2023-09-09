@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -67,7 +68,9 @@ fun NoteAddScreen(
             topBar = {
                 Surface(shape = RoundedCornerShape(topStart = 35.dp, topEnd = 35.dp, bottomStart = 35.dp, bottomEnd = 35.dp),
                     color = MaterialTheme.colorScheme.outlineVariant,
-                    modifier = Modifier.padding(start = 5.dp, end = 5.dp)
+                    modifier = Modifier
+                        .padding(start = 8.dp, end = 8.dp)
+                        .heightIn(max = 45.dp)
                 ) {
                     TopAppBar(
                         colors = TopAppBarDefaults.largeTopAppBarColors(Color.Transparent),
