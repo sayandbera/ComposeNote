@@ -1,6 +1,8 @@
 # ComposeNote - A Simple Note-Taking App
 
 ComposeNote is a straightforward note-taking app built using Jetpack Compose, Room Database, Hilt Dependency Injection, and more. This project serves as a practical demonstration of Android app development concepts and showcases the following features:
+
+## Screenshots
 ![note app image](https://github.com/sayandbera/ComposeNote/assets/138639834/b217993e-50a1-46bf-82e4-56e2d201bcff)
 
 - Create, edit, and delete notes.
@@ -14,8 +16,6 @@ ComposeNote is a straightforward note-taking app built using Jetpack Compose, Ro
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
@@ -34,4 +34,4 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/sayandbera/ComposeNote.git
+https://github.com/sayandbera/ComposeNote.git
